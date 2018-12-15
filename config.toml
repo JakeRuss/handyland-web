@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.handylandswfl.com"
+baseurl = "https://www.handylandswfl.com/"
 languageCode = "en-us"
 title = "Handyland SWFL"
 theme = "hugo-freelancer-theme"
@@ -40,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "handyland_logo.jpg"
         name = "Bobby Russ"
-        subtitle = "Home Repair & Improvements"
+        subtitle = "Home Repair & Improvements - Pine Island - Cape Coral - Fort Myers"
 
 
     [params.portfolio]
@@ -58,10 +58,10 @@ theme = "hugo-freelancer-theme"
 
 
     [params.about]
-        title = "About"
+        title = "Services"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left  = "<ul style='list-style-type:square'><li>Interior Repairs</li> <li>Home Maintenance</li> <li>Exterior Repairs</li></ul>"
+        right = "<ul style='list-style-type:square'><li>To-Do Lists</li> <li>Punchout Services</li> <li>TV Mount Installation</li> <li>Power Washing</li></ul>"
 
         [params.about.button]
             text = "Download theme"
@@ -94,7 +94,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+        copyright = "Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
             title = "Location"
@@ -116,5 +116,5 @@ theme = "hugo-freelancer-theme"
 
 
         [params.footer.credits]
-            title = " "
-            text = " "
+            title = "Phone"
+            text = "239-297-1704"
