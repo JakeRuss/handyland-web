@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://www.handylandswfl.com"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "Handyland SWFL"
 theme = "hugo-freelancer-theme"
 
 
@@ -12,8 +12,8 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Bobby Russ"
+    description = "Home Repair & Improvements"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -26,21 +26,21 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "handylandswfl@gmail.com"
 
     # Custom assets
 	custom_css = []
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Handyland SWFL"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        image = "handyland_logo.jpg"
+        name = "Bobby Russ"
+        subtitle = "Home Repair & Improvements"
 
 
     [params.portfolio]
@@ -99,7 +99,7 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["7141 Hibiscus Ave", "Bokeelia, FL 33922"]
 
         [params.footer.social]
             title = "Around the web"
@@ -107,14 +107,14 @@ theme = "hugo-freelancer-theme"
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
-                icon = "fa-github"
+                icon = "fa-facebook"
                 link = "//github.com/spf13/hugo"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
+                icon = "fa-twitter"
                 link=  "//stackoverflow.com/questions/tagged/hugo"
 
 
         [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+            title = " "
+            text = " "
