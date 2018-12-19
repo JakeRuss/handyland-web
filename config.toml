@@ -29,7 +29,7 @@ theme = "hugo-freelancer-theme"
     email = "handylandswfl@gmail.com"
 
     # Custom assets
-	custom_css = []
+	custom_css = ["/css/freelancer-overrides.css"]
 	custom_js  = []
 
     [params.navigation]
@@ -60,8 +60,8 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "Services"
         # The about text is splitted into a left and right column
-        left  = "<ul style='list-style-type:square'><li>Interior Repairs</li> <li>Home Maintenance</li> <li>Exterior Repairs</li></ul>"
-        right = "<ul style='list-style-type:square'><li>To-Do Lists</li> <li>Punchout Services</li> <li>TV Mount Installation</li> <li>Power Washing</li></ul>"
+        left  = "<h4><ul style='list-style-type:square'><li>Interior Repairs</li> <li>Home Maintenance</li> <li>Exterior Repairs</li> <li>Troubleshooting</li></ul></h4>"
+        right = "<h4><ul style='list-style-type:square'><li>To-Do Lists</li> <li>Punchout Services</li> <li>TV Mount Installation</li> <li>Power Washing</li></ul></h4>"
 
         [params.about.button]
             text = "Download theme"
