@@ -67,8 +67,18 @@ hr.star-light {
     border-color: #f58b25; /* Orange */
 }
 
+hr.star-light:after {
+    color: #f58b25;
+    background-color: #ffffff;
+}
+
 hr.star-primary {
     border-color: #f58b25; /* Orange */
+}
+
+hr.star-primary:after {
+    color: #f58b25;
+    background-color: #ffffff;
 }
 
 section.success {
