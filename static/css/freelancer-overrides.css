@@ -1,8 +1,66 @@
 
+a {
+  color: #f58b25;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:focus {
+  color: #f58b25;
+}
+
+a:active {
+  color: #f58b25;
+}
+
+a.active {
+    outline: 0;
+    color: #18bc9c;
+}
+
+h2 {
+    color: #000000;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+.navbar-fixed-top .navbar-brand:hover {
+  color: #f58b25;
+}
+
+.navbar-fixed-top .navbar-brand:focus {
+  color: #f58b25;
+}
+
+.navbar-fixed-top .navbar-brand:active {
+  color: #f58b25;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #f58b25;
+}
+
+.navbar .navbar-nav li a:focus {
+  outline: 0;
+  color: #f58b25;
+}
+
 header {
     text-align: center;
     color: #000000;       /* Black */
     background: #fefefe;  /* White */
+}
+
+header .intro-text .name {
+    display: block;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 hr.star-light {
@@ -12,3 +70,28 @@ hr.star-light {
 hr.star-primary {
     border-color: #f58b25; /* Orange */
 }
+
+section.success {
+    color: #000000;
+    background: #ffffff; /* White */
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000000;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #808386;
+    border-color: #808386;
+}
+
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #f58b25;
+    border-color: #f58b25;
+}
+
