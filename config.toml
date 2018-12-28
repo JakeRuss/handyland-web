@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://www.handylandswfl.com/"
 languageCode = "en-us"
-title = "Handyland SWFL"
+title = "Handyland"
 theme = "hugo-freelancer-theme"
 
 
@@ -12,7 +12,7 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Bobby Russ"
+    name = "Handyland, Inc"
     description = "Home Repair & Improvements"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -33,14 +33,13 @@ theme = "hugo-freelancer-theme"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Handyland SWFL"
-
+        brand = "Handyland"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "handyland_logo.jpg"
-        name = "Bobby Russ"
-        subtitle = "Home Repair & Improvements - Pine Island - Cape Coral - Fort Myers"
+        image = "handyland_cropped.jpg"
+        name = "Home Repair & Improvements"
+        subtitle = "Pine Island - Cape Coral - Fort Myers"
 
 
     [params.portfolio]
@@ -62,12 +61,6 @@ theme = "hugo-freelancer-theme"
         # The about text is splitted into a left and right column
         left  = "<h4><ul style='list-style-type:square'><li>Interior Repairs</li> <li>Home Maintenance</li> <li>Exterior Repairs</li> <li>Troubleshooting</li></ul></h4>"
         right = "<h4><ul style='list-style-type:square'><li>To-Do Lists</li> <li>Punchout Services</li> <li>TV Mount Installation</li> <li>Power Washing</li></ul></h4>"
-
-        [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
-
 
     [params.contact]
         title = "Contact"
@@ -97,21 +90,21 @@ theme = "hugo-freelancer-theme"
         copyright = "Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
-            title = "Location"
+            title = "Service Area"
             # Postal address (add as many lines as necessary)
-            address = ["7141 Hibiscus Ave", "Bokeelia, FL 33922"]
+            address = ["Pine Island, Cape Coral, and Fort Myers"]
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Social Media"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-facebook"
-                link = "//github.com/spf13/hugo"
+                link = "//facebook.com/handylandswfl"
 
             [[params.footer.social.networks]]
-                icon = "fa-twitter"
+                icon = "fa-instagram"
                 link=  "//stackoverflow.com/questions/tagged/hugo"
 
 
